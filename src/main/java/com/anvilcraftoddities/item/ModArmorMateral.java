@@ -18,7 +18,6 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.EnumMap;
 import java.util.List;
 import java.util.function.Supplier;
-import java.util.jar.Attributes;
 
 public class ModArmorMateral {
 
@@ -38,7 +37,7 @@ public class ModArmorMateral {
                 attribut.put(ArmorItem.Type.LEGGINGS, 6);
                 attribut.put(ArmorItem.Type.BOOTS, 3);
                 attribut.put(ArmorItem.Type.BODY, 11);
-            }),20,2f,0.1f,()-> ModItems.ROYAL_STEEL_INGOT.get());
+            }),20,2f,0.1f, ModItems.ROYAL_STEEL_INGOT);
 
 
 
