@@ -2,6 +2,7 @@ package com.anvilcraftoddities.item;
 
 
 import com.anvilcraftoddities.Anvilcraftoddities;
+
 import net.minecraft.world.item.ArmorItem;
 
 import net.minecraft.world.item.Item;
@@ -9,7 +10,6 @@ import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-
 
 
 
@@ -46,11 +46,56 @@ public class ModItems {
             ));
 
 //皇家钢盔甲
-    public static final DeferredItem<ArmorItem> ROYAL_STEEL_BOOTS = ITEMS.register("royal_steel_boots",
-            () -> new ArmorItem(
+    public static final DeferredItem<ArmorItem> ROYAL_STEEL_HELMET = ITEMS.register("royal_steel_helmet",()->
+        new RoyalSteelArmor(
+                ModArmorMateral.ROYAL_STELL_MATEREIAL,
+                ArmorItem.Type.HELMET,
+                new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(35))
+        ));
+    public static final DeferredItem<ArmorItem> ROYAL_STEEL_CHESTPLATE = ITEMS.register("royal_steel_chestplate",()->
+            new RoyalSteelArmor(
+                    ModArmorMateral.ROYAL_STELL_MATEREIAL,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(35))
+            ));
+    public static final DeferredItem<ArmorItem> ROYAL_STEEL_LEGGINGS = ITEMS.register("royal_steel_leggings",()->
+            new RoyalSteelArmor(
+                    ModArmorMateral.ROYAL_STELL_MATEREIAL,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(35))
+            ));
+    public static final DeferredItem<ArmorItem> ROYAL_STEEL_BOOTS = ITEMS.register("royal_steel_boots",()->
+            new RoyalSteelArmor(
                     ModArmorMateral.ROYAL_STELL_MATEREIAL,
                     ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(25))
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(35))
+            ));
+
+
+//余烬盔甲
+    public static final DeferredItem<ArmorItem> EMBER_METAL_HELMET = ITEMS.register("ember_metal_helmet",()->
+        new EmberMetalArmor(
+                ModArmorMateral.EMBER_METAL_MATEREIAL,
+                ArmorItem.Type.HELMET,
+                new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(40))
+        ));
+    public static final DeferredItem<ArmorItem> EMBER_METAL_CHESTPLATE = ITEMS.register("ember_metal_chestplate",()->
+            new EmberMetalArmor(
+                    ModArmorMateral.EMBER_METAL_MATEREIAL,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(40))
+            ));
+    public static final DeferredItem<ArmorItem> EMBER_METAL_LEGGINGS = ITEMS.register("ember_metal_leggings",()->
+            new EmberMetalArmor(
+                    ModArmorMateral.EMBER_METAL_MATEREIAL,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(40))
+            ));
+    public static final DeferredItem<ArmorItem> EMBER_METAL_BOOTS = ITEMS.register("ember_metal_boots",()->
+            new EmberMetalArmor(
+                    ModArmorMateral.EMBER_METAL_MATEREIAL,
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(40))
             ));
 
 

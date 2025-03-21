@@ -7,7 +7,7 @@ package com.anvilcraftoddities.ui;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
+
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -29,6 +29,18 @@ public class ModCreativeModTab {
                                 output.accept(ModItems.AMETHYST_CHESTPLATE.get());
                                 output.accept(ModItems.AMETHYST_LEGGINGS.get());
                                 output.accept(ModItems.AMETHYST_BOOTS.get());
+                                output.accept(ModItems.ROYAL_STEEL_HELMET.get());
+                                output.accept(ModItems.ROYAL_STEEL_CHESTPLATE.get());
+                                output.accept(ModItems.ROYAL_STEEL_LEGGINGS.get());
+                                output.accept(ModItems.ROYAL_STEEL_BOOTS.get());
+                                output.accept(ModItems.EMBER_METAL_HELMET.get());
+                                output.accept(ModItems.EMBER_METAL_CHESTPLATE.get());
+                                output.accept(ModItems.EMBER_METAL_LEGGINGS.get());
+                                output.accept(ModItems.EMBER_METAL_BOOTS.get());
+
+
+
+
                             })
                             .build());
 

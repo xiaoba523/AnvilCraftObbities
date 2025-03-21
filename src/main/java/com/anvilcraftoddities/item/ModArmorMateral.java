@@ -32,12 +32,21 @@ public class ModArmorMateral {
 
     public static final Holder<ArmorMaterial> ROYAL_STELL_MATEREIAL = register("royal_stell",
             Util.make(new EnumMap<>(ArmorItem.Type.class),attribut->{
-                attribut.put(ArmorItem.Type.HELMET, 3);
+                attribut.put(ArmorItem.Type.HELMET, 4);
                 attribut.put(ArmorItem.Type.CHESTPLATE, 8);
-                attribut.put(ArmorItem.Type.LEGGINGS, 6);
-                attribut.put(ArmorItem.Type.BOOTS, 3);
+                attribut.put(ArmorItem.Type.LEGGINGS, 7);
+                attribut.put(ArmorItem.Type.BOOTS, 4);
                 attribut.put(ArmorItem.Type.BODY, 11);
-            }),20,2f,0.1f, ModItems.ROYAL_STEEL_INGOT);
+            }),20,2.5f,0.1f, ModItems.ROYAL_STEEL_INGOT);
+
+    public static final Holder<ArmorMaterial> EMBER_METAL_MATEREIAL = register("ember_metal",
+            Util.make(new EnumMap<>(ArmorItem.Type.class),attribut->{
+                attribut.put(ArmorItem.Type.HELMET, 7);
+                attribut.put(ArmorItem.Type.CHESTPLATE, 12);
+                attribut.put(ArmorItem.Type.LEGGINGS, 11);
+                attribut.put(ArmorItem.Type.BOOTS, 7);
+                attribut.put(ArmorItem.Type.BODY, 17);
+            }),25,4f,0.2f, ModItems.EMBER_METAL_INGOT::get);
 
 
 
