@@ -122,7 +122,9 @@ public class ModItems {
 
 
 
-
+//    static {
+//        ItemTooltipManager.NEED_TOOLTIP_ITEM.put(EMBER_MULTI_TOOL.asItem(),"aaa");
+//    }
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
