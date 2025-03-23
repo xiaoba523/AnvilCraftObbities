@@ -9,17 +9,20 @@
  "item.anvilcraftoddities.amethyst_chestplate": "amethyst_chestplate",
  "item.anvilcraftoddities.amethyst_leggings": "amethyst_leggings",
  "item.anvilcraftoddities.amethyst_boots": "amethyst_boots",
+ "item.anvilcraftoddities.amethyst_multi_tool": "amethyst_multi_tool",
 
 
  "item.anvilcraftoddities.royal_steel_helmet": "royal_steel_helmet",
  "item.anvilcraftoddities.royal_steel_chestplate": "royal_steel_chestplate",
  "item.anvilcraftoddities.royal_steel_leggings": "royal_steel_leggings",
  "item.anvilcraftoddities.royal_steel_boots": "royal_steel_boots",
-
+ "item.anvilcraftoddities.royal_multi_tool": "royal_steel_multi_tool",
 
 
  "item.anvilcraftoddities.ember_metal_helmet": "ember_metal_helmet",
  "item.anvilcraftoddities.ember_metal_chestplate": "ember_metal_chestplate",
  "item.anvilcraftoddities.ember_metal_leggings": "ember_metal_leggings",
- "item.anvilcraftoddities.ember_metal_boots": "ember_metal_boots"
+ "item.anvilcraftoddities.ember_metal_boots": "ember_metal_boots",
+ "item.anvilcraftoddities.ember_multi_tool": "ember_metal_multi_tool"
+
 }

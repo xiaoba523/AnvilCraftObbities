@@ -37,12 +37,15 @@ public class ModCreativeModTab {
                                 output.accept(ModItems.EMBER_METAL_CHESTPLATE.get());
                                 output.accept(ModItems.EMBER_METAL_LEGGINGS.get());
                                 output.accept(ModItems.EMBER_METAL_BOOTS.get());
-
+                                output.accept(ModItems.AMETHYST_MULTI_TOOL.get());
+                                output.accept(ModItems.ROYAL_MULTI_TOOL.get());
+                                output.accept(ModItems.EMBER_MULTI_TOOL.get());
 
 
 
                             })
                             .build());
+
 
     public static void register(IEventBus eventBus){CREATIVE_MODE_TAB.register(eventBus);}
 
