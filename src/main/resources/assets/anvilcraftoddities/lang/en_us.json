@@ -1,28 +1,24 @@
 {
- "creativetab.Anvilcraftoddities.gears":"AnvilCraft:Gear",
+  "creativetab.Anvilcraftoddities.gears": "AnvilCraft: Armor",
 
+  "item.anvilcraftoddities.amethyst_helmet": "Amethyst Helmet",
+  "item.anvilcraftoddities.amethyst_chestplate": "Amethyst Chestplate",
+  "item.anvilcraftoddities.amethyst_leggings": "Amethyst Leggings",
+  "item.anvilcraftoddities.amethyst_boots": "Amethyst Boots",
+  "item.anvilcraftoddities.amethyst_multi_tool": "Amethyst Multi-Tool",
+  "tooltip.anvilcraftoddities.item.amethyst_multi_tool": "An axe, a pickaxe, and a shovel",
 
+  "item.anvilcraftoddities.royal_steel_helmet": "Royal Steel Helmet",
+  "item.anvilcraftoddities.royal_steel_chestplate": "Royal Steel Chestplate",
+  "item.anvilcraftoddities.royal_steel_leggings": "Royal Steel Leggings",
+  "item.anvilcraftoddities.royal_steel_boots": "Royal Steel Boots",
+  "item.anvilcraftoddities.royal_multi_tool": "Royal Steel Multi-Tool",
+  "tooltip.anvilcraftoddities.item.royal_multi_tool": "An axe, a pickaxe, and a shovel",
 
-
-
- "item.anvilcraftoddities.amethyst_helmet": "amethyst_helmet",
- "item.anvilcraftoddities.amethyst_chestplate": "amethyst_chestplate",
- "item.anvilcraftoddities.amethyst_leggings": "amethyst_leggings",
- "item.anvilcraftoddities.amethyst_boots": "amethyst_boots",
- "item.anvilcraftoddities.amethyst_multi_tool": "amethyst_multi_tool",
-
-
- "item.anvilcraftoddities.royal_steel_helmet": "royal_steel_helmet",
- "item.anvilcraftoddities.royal_steel_chestplate": "royal_steel_chestplate",
- "item.anvilcraftoddities.royal_steel_leggings": "royal_steel_leggings",
- "item.anvilcraftoddities.royal_steel_boots": "royal_steel_boots",
- "item.anvilcraftoddities.royal_multi_tool": "royal_steel_multi_tool",
-
-
- "item.anvilcraftoddities.ember_metal_helmet": "ember_metal_helmet",
- "item.anvilcraftoddities.ember_metal_chestplate": "ember_metal_chestplate",
- "item.anvilcraftoddities.ember_metal_leggings": "ember_metal_leggings",
- "item.anvilcraftoddities.ember_metal_boots": "ember_metal_boots",
- "item.anvilcraftoddities.ember_multi_tool": "ember_metal_multi_tool"
-
+  "item.anvilcraftoddities.ember_metal_helmet": "Ember Helmet",
+  "item.anvilcraftoddities.ember_metal_chestplate": "Ember Chestplate",
+  "item.anvilcraftoddities.ember_metal_leggings": "Ember Leggings",
+  "item.anvilcraftoddities.ember_metal_boots": "Ember Boots",
+  "item.anvilcraftoddities.ember_multi_tool": "Ember Metal Multi-Tool",
+  "tooltip.anvilcraftoddities.item.ember_multi_tool": "An axe, a pickaxe, and a shovel"
 }

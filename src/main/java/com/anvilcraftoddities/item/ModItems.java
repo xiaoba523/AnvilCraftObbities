@@ -77,25 +77,25 @@ public class ModItems {
         new EmberMetalArmor(
                 ModArmorMateral.EMBER_METAL_MATEREIAL,
                 ArmorItem.Type.HELMET,
-                new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(40))
+                new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(40)).fireResistant()
         ));
     public static final DeferredItem<ArmorItem> EMBER_METAL_CHESTPLATE = ITEMS.register("ember_metal_chestplate",()->
             new EmberMetalArmor(
                     ModArmorMateral.EMBER_METAL_MATEREIAL,
                     ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(40))
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(40)).fireResistant()
             ));
     public static final DeferredItem<ArmorItem> EMBER_METAL_LEGGINGS = ITEMS.register("ember_metal_leggings",()->
             new EmberMetalArmor(
                     ModArmorMateral.EMBER_METAL_MATEREIAL,
                     ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(40))
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(40)).fireResistant()
             ));
     public static final DeferredItem<ArmorItem> EMBER_METAL_BOOTS = ITEMS.register("ember_metal_boots",()->
             new EmberMetalArmor(
                     ModArmorMateral.EMBER_METAL_MATEREIAL,
                     ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(40))
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(40)).fireResistant()
             ));
 
 
@@ -116,15 +116,12 @@ public class ModItems {
     public static final DeferredItem<EmberMultiToolItem> EMBER_MULTI_TOOL = ITEMS.register("ember_multi_tool",
             () -> new EmberMultiToolItem(
                     ModTiers.EMBER_METAL,
-                    new Item.Properties().durability(3122)
+                    new Item.Properties().durability(3122).fireResistant()
             )
     );
 
 
 
-//    static {
-//        ItemTooltipManager.NEED_TOOLTIP_ITEM.put(EMBER_MULTI_TOOL.asItem(),"aaa");
-//    }
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

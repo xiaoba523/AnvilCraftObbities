@@ -12,6 +12,7 @@
   "item.anvilcraftoddities.amethyst_leggings": "紫水晶护腿",
   "item.anvilcraftoddities.amethyst_boots": "紫水晶靴子",
   "item.anvilcraftoddities.amethyst_multi_tool": "紫水晶多功能工具",
+  "tooltip.anvilcraftoddities.item.amethyst_multi_tool":"是斧子，是镐子，也是铲子",
 
 
   "item.anvilcraftoddities.royal_steel_helmet": "皇家钢头盔",
@@ -19,14 +20,14 @@
   "item.anvilcraftoddities.royal_steel_leggings": "皇家钢护腿",
   "item.anvilcraftoddities.royal_steel_boots": "皇家钢靴子",
   "item.anvilcraftoddities.royal_multi_tool": "皇家钢多功能工具",
-
+  "tooltip.anvilcraftoddities.item.royal_multi_tool":"是斧子，是镐子，也是铲子",
 
 
   "item.anvilcraftoddities.ember_metal_helmet": "余烬头盔",
   "item.anvilcraftoddities.ember_metal_chestplate": "余烬胸甲",
   "item.anvilcraftoddities.ember_metal_leggings": "余烬护腿",
   "item.anvilcraftoddities.ember_metal_boots": "余烬靴子",
-  "item.anvilcraftoddities.ember_multi_tool": "余烬金属多功能工具"
-
+  "item.anvilcraftoddities.ember_multi_tool": "余烬金属多功能工具",
+  "tooltip.anvilcraftoddities.item.ember_multi_tool":"是斧子，是镐子，也是铲子"
 
 }
