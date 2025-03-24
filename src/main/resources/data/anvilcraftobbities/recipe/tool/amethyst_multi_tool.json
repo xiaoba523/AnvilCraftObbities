@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABC",
+    " D ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "anvilcraft:amethyst_axe"
+    },
+    "B": {
+      "item": "anvilcraft:amethyst_shovel"
+    },
+    "C": {
+      "item": "anvilcraft:amethyst_pickaxe"
+    },
+    "D": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "anvilcraftoddities:amethyst_multi_tool"
+  }
+}
