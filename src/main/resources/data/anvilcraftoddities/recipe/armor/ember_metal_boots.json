@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "anvilcraft:ember_metal_ingot"
+  },
+  "base": {
+    "item": "anvilcraftoddities:royal_steel_boots"
+  },
+  "result": {
+    "count": 1,
+    "id": "anvilcraftoddities:ember_metal_boots"
+  },
+  "template": {
+    "item": "anvilcraft:ember_metal_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "anvilcraft:ember_metal_ingot"
+  },
+  "base": {
+    "item": "anvilcraftoddities:royal_multi_tool"
+  },
+  "result": {
+    "count": 1,
+    "id": "anvilcraftoddities:ember_multi_tool"
+  },
+  "template": {
+    "item": "anvilcraft:ember_metal_upgrade_smithing_template"
+  }
+}

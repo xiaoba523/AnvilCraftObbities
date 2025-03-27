@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "anvilcraft:royal_steel_ingot"
+  },
+  "base": {
+    "item": "anvilcraftoddities:amethyst_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "anvilcraftoddities:royal_steel_leggings"
+  },
+  "template": {
+    "item": "anvilcraft:royal_steel_upgrade_smithing_template"
+  }
+}

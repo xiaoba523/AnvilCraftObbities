@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "anvilcraft:royal_steel_ingot"
+  },
+  "base": {
+    "item": "anvilcraftoddities:amethyst_multi_tool"
+  },
+  "result": {
+    "count": 1,
+    "id": "anvilcraftoddities:royal_multi_tool"
+  },
+  "template": {
+    "item": "anvilcraft:royal_steel_upgrade_smithing_template"
+  }
+}
