@@ -103,19 +103,18 @@ public class ModItems {
 //工具
     public static final DeferredItem<AmethystMultiToolItem> AMETHYST_MULTI_TOOL = ITEMS.register("amethyst_multi_tool",
         () -> new AmethystMultiToolItem(
-                ModTiers.AMETHYST,
+
                 new Item.Properties().durability(751)
         )
     );
     public static final DeferredItem<RoyalMultiToolItem> ROYAL_MULTI_TOOL = ITEMS.register("royal_multi_tool",
             () -> new RoyalMultiToolItem(
-                    Tiers.DIAMOND,
+
                     new Item.Properties().durability(1561)
             )
     );
     public static final DeferredItem<EmberMultiToolItem> EMBER_MULTI_TOOL = ITEMS.register("ember_multi_tool",
             () -> new EmberMultiToolItem(
-                    ModTiers.EMBER_METAL,
                     new Item.Properties().durability(3122).fireResistant()
             )
     );

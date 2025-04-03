@@ -1,9 +1,10 @@
 package com.anvilcraftoddities.item;
 
+import dev.dubhe.anvilcraft.item.ModTiers;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.DiggerItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -15,8 +16,13 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CampfireBlock;
 
 public class AmethystMultiToolItem extends DiggerItem {
-    public AmethystMultiToolItem(Tier tier, Properties properties) {
-        super(tier, BlockTags.MINEABLE_WITH_PICKAXE, properties);
+    public AmethystMultiToolItem(Properties properties) {
+        super(
+                ModTiers.AMETHYST,          // 工具等级
+                BlockTags.MINEABLE_WITH_PICKAXE, // 可挖掘的方块标签
+                properties.fireResistant()       // 物品属性
+                        .attributes(AxeItem.createAttributes(ModTiers.EMBER_METAL, 7, -3f))
+        );
     }
 
     @Override

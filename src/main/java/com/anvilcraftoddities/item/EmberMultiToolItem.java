@@ -2,14 +2,13 @@ package com.anvilcraftoddities.item;
 
 import dev.dubhe.anvilcraft.item.IFireReforging;
 import dev.dubhe.anvilcraft.item.IInherentEnchantment;
+
+import dev.dubhe.anvilcraft.item.ModTiers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.item.DiggerItem;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
 
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -29,9 +28,17 @@ import java.util.List;
 import java.util.Map;
 
 public class EmberMultiToolItem extends DiggerItem implements IInherentEnchantment, IFireReforging {
-    public EmberMultiToolItem(Tier tier, Properties properties) {
-        super(tier, BlockTags.MINEABLE_WITH_PICKAXE, properties);
+    public EmberMultiToolItem(Properties properties) {
+        super(
+                ModTiers.EMBER_METAL,          // 工具等级
+                BlockTags.MINEABLE_WITH_PICKAXE, // 可挖掘的方块标签
+                properties.fireResistant()       // 物品属性
+                        .attributes(AxeItem.createAttributes(ModTiers.EMBER_METAL, 10, -3f))
+        );
     }
+
+
+
     @Override
     public InteractionResult useOn(UseOnContext context) {
         Level level = context.getLevel();
