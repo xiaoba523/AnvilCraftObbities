@@ -3,12 +3,12 @@ package com.anvilcraftoddities.item;
 
 import com.anvilcraftoddities.Anvilcraftoddities;
 
-import dev.dubhe.anvilcraft.item.ModTiers;
+
 import net.minecraft.world.item.ArmorItem;
 
 import net.minecraft.world.item.Item;
 
-import net.minecraft.world.item.Tiers;
+
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
